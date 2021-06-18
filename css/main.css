@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-size: 2.6em;
+	color: white;
+}
+h2{
+	font-size: 1.2em;
+
+}
+#banner {
+	background: url(../res/images/banner.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.main-text {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	align-items: flex-end;
+	position: relative;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.main-title {
+	font-size: 2.6em;
+	color: white;
+	margin: 5px 0px;
+	user-select: none;
+}
+
+.main-title-sm {
+	font-size: 1.9em;
+	color: white;
+}
+
+.main-btn {
+	color: white;
+	background-color: transparent;
+	border: 1px solid #e4252f;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+}
+#products-section{
+	background-color: black;
+	height: 100vh;
+	position: relative;
+	/*display: flex;
+	justify-content: space-around;*/
+	
+	/*grid-template-rows: auto;*/
+    
+}
+/*.sm-main-title{
+	font-size: 2cm;
+}*/
+
+.center {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: repeat(2, 250px);
+	width: 50%;
+	height: 80%;
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.product{
+	background-color: rgb(255, 255, 255);
+	width: 150px;
+	height: 90%;
+	align-self: center;
+	justify-self: center;
+	
+
+}
+.pro-img{
+	width: 100%;
+	height: 80%;
+}
+@media screen and (max-width:600px){
+	
+
+.main-text {
+	display: flex;
+	width: 30%;
+	align-items: flex-end;
+	position: relative;
+	top: 40%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.main-title {
+	font-size: 2em;
+	color: white;
+	margin: 5px 0px;
+	user-select: none;
+}
+
+.main-title-sm {
+	font-size: 1.9em;
+	color: white;
+}
+
+
+	
+}
